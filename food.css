@@ -1,0 +1,459 @@
+@import url('https://fonts.googleapis.com/css?family=Cinzel:400,700&display=swap');
+/*font-family: 'Cinzel', serif;*/
+
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.5s;
+    font-family: 'Cinzel', serif;
+    color: #273A4E;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+.container {
+    width: 1366px;
+    margin: 0 auto;
+}
+.clearfix:after {
+    content: '';
+    display: block;
+    clear:both;
+}
+
+.Navigation {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background: white;
+    display: flex;
+    flex-basis: 50%;
+    justify-content: space-evenly;
+    padding: 20px 0;
+}
+
+.Navigation>a {
+    text-decoration: none;
+    color: #273A4E;
+}
+.Navigation>a:hover {
+    color: lightgrey;
+    transform: scale(1.2);
+}
+
+.Home {
+    background: linear-gradient(
+            rgba(39, 58, 78, 0.4),
+            rgba(39, 58, 78, 0.4)
+    ),url("img/BG.webp") top center no-repeat;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    margin: 0 80px;
+}
+
+.Home h1 {
+    font-weight: normal;
+    font-size: 70px;
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 15px;
+    color: white;
+}
+
+.Home h2 {
+    font-weight: normal;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    color: white;
+}
+
+button {
+    background: transparent;
+    height: 40px;
+    width: 145px;
+    display: block;
+    margin: 10px auto;
+    font-size: 16px;
+    border: solid 1px white;
+}
+
+button:hover {
+    border: solid 1px #273A4E;
+    background: #273A4E;
+    cursor: pointer;
+}
+
+.Home button {
+    color: white;
+}
+.Portfolio {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 20px 80px;
+}
+
+.Portfolio>div:first-of-type {
+    background: linear-gradient(
+            rgba(39, 58, 78, 0.4),
+            rgba(39, 58, 78, 0.4)
+    ), url("img/oysters.jpg") top center no-repeat;
+    width: 100%;
+    height: 1000px;
+}
+
+.Portfolio>div:nth-of-type(2) {
+    background: linear-gradient(
+            rgba(39, 58, 78, 0.2),
+            rgba(39, 58, 78, 0.2)
+    ), url("img/fig.jpg") top center no-repeat;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.Portfolio>div:last-of-type {
+    background: linear-gradient(
+            rgba(39, 58, 78, 0.4),
+            rgba(39, 58, 78, 0.4)
+    ), url("img/baked.png") top center no-repeat;
+    width: 100%;
+    margin-left: 10px;
+}
+
+.Portfolio h2 {
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    color: white;
+}
+
+.Portfolio button {
+    color: white;
+}
+
+.About {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+    margin: 45px 80px;
+    background-color: lavender;
+}
+.About>div:first-of-type {
+    background: url("img/girl.webp") center top no-repeat;
+    background-size: cover;
+    height: 1024px;
+    flex-shrink: 5;
+    flex-basis: 50%;
+}
+
+.About>div:last-of-type {
+    flex-basis: 50%;
+    margin: 150px 115px 0;
+}
+
+.About h2 {
+    color: #273A4E;
+    text-align: center;
+    font-size: 40px;
+    font-weight: normal;
+}
+
+.About h3 {
+    color: #273A4E;
+    font-size: 20px;
+    font-weight: normal;
+    margin: 30px 0 0;
+}
+
+.About p {
+    color: #273A4E;
+    text-align: justify;
+    margin: 20px 0;
+    font-family: "Calibri Light", serif;
+    font-size: 18px;
+}
+
+.Books {
+    display: flex;
+    margin: 0 80px;
+    flex-direction: column;
+}
+
+.Breakfast {
+    background-color: lavender;
+    flex-basis: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.Book {
+    display: flex;
+    flex-basis: 50%;
+    margin: 150px auto;
+}
+
+.Breakfast>.Book>div:first-of-type {
+    flex-basis: 50%;
+    align-self: center;
+    margin-right: 25px;
+}
+
+.Breakfast>.Book>div:last-of-type {
+    background: url("img/book1.webp") center center no-repeat;
+    height: 438px;
+    width: 600px;
+    flex-basis: 50%;
+    margin-left: 25px;
+}
+
+.Books h2 {
+    font-size: 64px;
+    font-weight: normal;
+    color: #273A4E;
+}
+
+.Books p {
+    font-family: "Calibri Light", serif;
+    font-size: 18px;
+    line-height: 1.5em;
+    color: #273A4E;
+    margin: 20px 0;
+    text-align: justify;
+    padding-right: 50px;
+}
+
+.Books h3 {
+    font-size: 64px;
+    letter-spacing: 0.1em;
+    font-weight: normal;
+    color: #273A4E;
+    display: inline-block;
+}
+
+.Books span {
+    font-size: 24px;
+    vertical-align: text-top;
+    color: #273A4E;
+}
+
+.Books button {
+    display: inline-block;
+    color: #273A4E;
+    border: 1px solid #273A4E;
+    margin-left: 150px;
+    vertical-align: text-bottom;
+}
+
+.Books button:hover {
+    color: white;
+}
+
+.Sugar {
+    background-color: lavender;
+    flex-basis: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.Sugar>.Book>div:first-of-type {
+    flex-basis: 50%;
+    margin-right: 85px;
+    align-self: center;
+}
+
+.Sugar>.Book>div:last-of-type {
+    background: url("img/book2.webp") center center no-repeat;
+    height: 438px;
+    width: 600px;
+    flex-basis: 50%;
+}
+
+.Sugar h2 {
+    line-height: 1.1em;
+    padding-right: 10px;
+}
+
+.Sugar p {
+    padding-right: 35px;
+}
+
+.Specials {
+    background-color: lavender;
+    flex-basis: 100%;
+    display: flex;
+    margin-bottom: 45px;
+}
+
+.Specials>.Book>div:first-of-type {
+    flex-basis: 50%;
+    align-self: center;
+    margin-right: 25px;
+}
+
+.Specials>.Book>div:last-of-type {
+    background: url("img/Book3.webp") center center no-repeat;
+    height: 438px;
+    width: 600px;
+    flex-basis: 50%;
+    margin-left: 60px;
+}
+
+.Specials h2 {
+    line-height: 1.1em;
+}
+
+.Specials p {
+    padding-right: 30px;
+}
+
+.Blog {
+    margin: 0 80px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
+
+.Blog>* {
+    width: 543px;
+    text-align: justify;
+    margin-bottom: 45px;
+}
+
+.Blog h2 {
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+    text-align: center;
+}
+
+.Blog img:hover{
+    background-color: #273A4E;
+    cursor: pointer;
+    transform: scale(1.1) translateY(-10px);
+    box-shadow: 0 4px 8px 0 #273A4E, 0 6px 20px 0 #273A4E;
+}
+
+.Blog img:hover+h2 {
+    letter-spacing: 5px;
+    transform: translateY(15px);
+}
+
+.Blog img:hover~p {
+    transform: scale(1.1) translateY(15px);
+}
+
+.Contact {
+    margin: 0 80px;
+    background: lavender;
+    display: flex;
+}
+
+.Contact>div:first-of-type {
+    background: url("img/contact.webp") no-repeat;
+    background-size: cover;
+    height: 818px;
+    flex-basis: 50%;
+}
+
+.Contact>div:last-of-type {
+    flex-basis: 50%;
+    margin: auto;
+    display: flex;
+    flex-flow: column;
+}
+
+.Contact h2 {
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    font-weight: normal;
+    font-size: 40px;
+}
+
+.Contact p {
+    margin: 20px auto;
+    width: 500px;
+}
+
+.Contact label {
+    margin: auto;
+    width: 500px;
+}
+
+.Contact label>input:not(:last-of-type) {
+    width: 100%;
+    height: 35px;
+    margin: 5px 0;
+    background: transparent;
+    border: #273A4E solid 1px;
+    padding-left: 10px;
+}
+
+.Contact textarea {
+    width: 100%;
+    height: 100%;
+    margin-top: 5px;
+    background: transparent;
+    border: #273A4E 1px solid;
+    padding: 10px 0 0 10px;
+}
+
+.Contact input[type="submit"] {
+    background: #273A4E;
+    height: 40px;
+    text-align: center;
+    display: block;
+    border: solid 1px transparent;
+    font-size: 16px;
+    padding: 0 10px;
+    color: white;
+    margin-left: 422px;
+}
+
+.Contact input[type="submit"]:hover {
+    border: solid 1px #273A4E;
+    background: #344d68;
+    cursor: pointer;
+}
+
+.Contact label:last-of-type {
+    margin-top: 30px;
+}
+.Contact label:last-of-type>input:first-of-type {
+    width: 60%;
+    display: inline-block;
+    float: left;
+}
+
+.Contact label:last-of-type>input:last-of-type {
+    width: 38%;
+    display: inline-block;
+    float: right;
+    margin: 5px 0 0 5px;
+    height: 35px;
+}
+
+::placeholder {
+    font-size: 16px;
+}
+
+.Footer {
+    margin: 25px 0 10px 0;
+    text-align: center;
+}
+
+.Footer a:not(:last-of-type) {
+    margin-right: 25px;
+}
+
+.Footer p {
+    font-family: "Calibri Light", serif;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+
