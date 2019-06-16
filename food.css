@@ -143,8 +143,9 @@ button:hover {
     margin: 45px 80px;
     background-color: lavender;
 }
+
 .About>div:first-of-type {
-    background: url("img/girl.webp") center top no-repeat;
+    background: url("img/girl.webp") no-repeat;
     background-size: cover;
     height: 1024px;
     flex-shrink: 5;
@@ -153,7 +154,8 @@ button:hover {
 
 .About>div:last-of-type {
     flex-basis: 50%;
-    margin: 150px 115px 0;
+    margin: auto;
+    padding: 0 120px;
 }
 
 .About h2 {
@@ -161,6 +163,7 @@ button:hover {
     text-align: center;
     font-size: 40px;
     font-weight: normal;
+    margin-bottom: 30px;
 }
 
 .About h3 {
@@ -173,7 +176,6 @@ button:hover {
 .About p {
     color: #273A4E;
     text-align: justify;
-    margin: 20px 0;
     font-family: "Calibri Light", serif;
     font-size: 18px;
 }
@@ -295,7 +297,7 @@ button:hover {
 }
 
 .Specials>.Book>div:last-of-type {
-    background: url("img/Book3.webp") center center no-repeat;
+    background: url("img/book3.webp") center center no-repeat;
     height: 438px;
     width: 600px;
     flex-basis: 50%;
