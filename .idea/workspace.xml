@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f5d6a07d-490b-47cd-85d9-c887e0fd64ea" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blog1.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blog2.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blog3.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blog4.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blog5.jfif" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/blog6.jfif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/food.css" beforeDir="false" afterPath="$PROJECT_DIR$/food.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -27,8 +22,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/index.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="433">
-                  <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+                <state relative-caret-position="384">
+                  <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
                   <folding>
                     <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -37,9 +32,15 @@
                     <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#section#3;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#2;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#3;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#4;n#section#4;n#body#0;n#html#0;n#!!top" />
+                    <element signature="n#div#5;n#section#4;n#body#0;n#html#0;n#!!top" />
                     <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-                    <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-                    <element signature="e#6209#6215#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -52,8 +53,8 @@
           <file pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/food.css">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="53">
-                  <caret line="42" selection-start-line="42" selection-end-line="42" />
+                <state relative-caret-position="458">
+                  <caret line="448" column="18" selection-start-line="448" selection-start-column="18" selection-end-line="448" selection-end-column="18" />
                 </state>
               </provider>
             </entry>
@@ -73,7 +74,11 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>.</find>
+      <find>.jfif</find>
     </findStrings>
+    <replaceStrings>
+      <replace>.png</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -81,8 +86,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/food.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/food.css" />
       </list>
     </option>
   </component>
@@ -97,6 +102,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -108,7 +114,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -151,12 +156,28 @@
       <workItem from="1560576963536" duration="8391000" />
       <workItem from="1560667921012" duration="2421000" />
       <workItem from="1560682931846" duration="11954000" />
-      <workItem from="1560711636469" duration="9031000" />
+      <workItem from="1560711636469" duration="10130000" />
+      <workItem from="1560752362433" duration="4794000" />
     </task>
+    <task id="LOCAL-00001" summary="Edition 1">
+      <created>1560720727296</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1560720727296</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Edition 1">
+      <created>1560721569383</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1560721569383</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="50909000" />
+    <option name="totallyTimeSpent" value="56802000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -185,18 +206,15 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Edition 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="Edition 1" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/food.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="53">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="433">
-          <caret line="119" column="32" selection-start-line="119" selection-start-column="32" selection-end-line="119" selection-end-column="32" />
+        <state relative-caret-position="384">
+          <caret line="92" column="31" selection-start-line="92" selection-start-column="31" selection-end-line="92" selection-end-column="31" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#0;n#body#0;n#html#0;n#!!top" />
@@ -205,10 +223,23 @@
             <element signature="n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#0;n#section#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#1;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#3;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#0;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#2;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#3;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#4;n#section#4;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#5;n#section#4;n#body#0;n#html#0;n#!!top" />
             <element signature="n#section#5;n#body#0;n#html#0;n#!!top" />
-            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
-            <element signature="e#6209#6215#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/food.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="458">
+          <caret line="448" column="18" selection-start-line="448" selection-start-column="18" selection-end-line="448" selection-end-column="18" />
         </state>
       </provider>
     </entry>

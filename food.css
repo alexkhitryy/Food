@@ -446,6 +446,7 @@ button:hover {
 .Footer {
     margin: 25px 0 10px 0;
     text-align: center;
+    display: flex;
 }
 
 .Footer a:not(:last-of-type) {
@@ -458,4 +459,74 @@ button:hover {
     margin-top: 10px;
 }
 
+
+@media all and (max-width: 1275px) {
+    .About div:last-of-type {
+        padding: 20px;
+    }
+
+    .Book {
+        margin: 20px auto;
+        display: inline-block;
+    }
+
+    .Breakfast>.Book>div:first-of-type {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin: 20px auto 0 auto;
+    }
+
+    .Breakfast>.Book>div:last-of-type {
+        margin-left: 100px;
+    }
+
+    .Books h2 {
+        text-align: center;
+    }
+
+    .Books p {
+        padding: 0 40px;
+    }
+
+    .Books h3 {
+        margin-left: 150px;
+    }
+    .Books button {
+        margin-left: 165px;
+    }
+
+    .Sugar>.Book>div:first-of-type {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin: 20px auto 0 auto;
+    }
+
+    .Sugar>.Book>div:last-of-type {
+        margin-left: 100px;
+    }
+
+    .Sugar h2 {
+        padding: 0;
+    }
+
+    .Specials>.Book>div:first-of-type {
+        flex-basis: 100%;
+        align-self: flex-start;
+        margin: 20px auto 0 auto;
+    }
+
+    .Specials>.Book>div:last-of-type {
+        margin-left: 100px;
+    }
+
+    .Blog {
+        flex-flow: column;
+        align-items: center;
+    }
+
+    .Contact>div:last-of-type {
+        margin: auto 20px;
+    }
+
+}
 
